@@ -22,7 +22,7 @@ Packages:
 - [tidytext]
 - [tm]
 
-And more similear data resources:
+And additional similar data resources:
 
 - [A few more corpora]
 
