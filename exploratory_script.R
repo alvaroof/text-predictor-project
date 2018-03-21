@@ -197,3 +197,9 @@ ndoc(my_dfm)*0.005
   rm(dfm_twitter_bigram)
   rm(freqs_twitter_bigram)
   #plot(sort(log10(twitter.freqs$frequency), decreasing = TRUE))
+  ##Plots a wordcloud
+  set.seed(100)
+  textplot_wordcloud(my_dfm, min_count = 1, 
+                     random_order = FALSE,rotation = .25,
+                     color = RColorBrewer::brewer.pal(8,"Dark2"))
+  
